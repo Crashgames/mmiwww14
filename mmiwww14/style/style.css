@@ -1,0 +1,163 @@
+body {
+    margin: inherit;
+    padding: inherit;
+    width: 100%;
+}
+
+h1 {
+    color:white;
+}
+
+header > img:first-of-type{
+    height: 80px;
+    width: 80px;
+}
+
+section:first-of-type {
+    margin-left: 200px; /*Nombre de pixel à moduler*/
+    margin-right: 200px; /*Nombre de pixel à moduler*/
+    margin-bottom: 50px; /*Nombre de pixel à moduler*/
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+section:first-of-type > a {
+    width: 60px; /*Nombre de pixel à moduler*/
+    height: 60px; /*Nombre de pixel à moduler*/
+    margin-top: 66px; /*Nombre de pixel à moduler*/
+    margin-left: 20px; /*Nombre de pixel à moduler*/
+    margin-right: 20px; /*Nombre de pixel à moduler*/
+}
+
+section:first-of-type > a > img {
+    width: 60px; /*Nombre de pixel à moduler*/
+    height: 60px; /*Nombre de pixel à moduler*/
+}
+
+section:first-of-type > a {
+    width: 60px; /*Nombre de pixel à moduler*/
+    height: 60px; /*Nombre de pixel à moduler*/
+}
+
+section:first-of-type > p {
+    margin-left:15px; /*Nombre de pixel à moduler*/
+}
+
+header {
+    margin-bottom: 50px;    
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    align-items:start;
+}
+
+footer > a {
+    width:3%; /*Pourcentage à moduler*/
+    display: flex;
+    flex-flow: row;
+    margin-left: 10px; /*Nombre de pixel à moduler*/
+}
+
+footer > p {
+   display: flex;
+   flex-flow: row;
+   margin-left: 200px; /*Nombre de pixel à moduler*/
+}
+
+img:nth-of-type(5) {
+    width: 20px;
+}
+
+p > img {
+    width: 2%;
+    height: 2%;
+    margin-bottom: 0px;
+}
+
+p {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+input:first-of-type {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 30px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border: none;
+}
+
+body > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style:none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    height: 100px;
+}
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul:nth-of-type(2) {
+    display: flex;
+    flex-flow: column;
+    margin-left: 338px;
+}
+
+nav > ul:nth-of-type(2) > li {
+    padding:inherit;
+    padding-bottom: 40px;
+}
+
+nav > ul:nth-of-type(2) > li > a {
+    font-size: 25px;
+    display: flex;
+    align-items: start;
+}
+
+nav > ul:nth-of-type(2) > li > a > img {
+    width: 100px;
+    height: 110px;
+}
+
+ul > li > a > img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
